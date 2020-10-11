@@ -14,7 +14,7 @@ if (document.readyState !== "loading") {
 
 function initializeCode() {
   console.log("Initializing");
-  //progressBar();
+  progressBar();
   renderBoard();
 }
 
