@@ -14,7 +14,7 @@ if (document.readyState !== "loading") {
 
 function initializeCode() {
   console.log("Initializing");
-  progressBar();
+  //progressBar();
   renderBoard();
 }
 
@@ -60,6 +60,7 @@ function renderBoard() {
 
 function progressBar() {
   let elem = document.getElementById("progressBar");
+
   setInterval(frame, 10);
   function frame() {
     if (width >= 100) {
